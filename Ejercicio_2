@@ -1,0 +1,21 @@
+package com.company.demo1;
+
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //write your code here
+        Coche miCoche = new Coche();
+        miCoche.SumarPuerta();
+        System.out.println(miCoche.puertas);
+    }
+}
+
+class Coche {
+    public int puertas = 4;
+
+    public void SumarPuerta(){
+        this.puertas++;
+    }
+}
